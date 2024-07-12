@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\ashup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj"
+              },
+              "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj",
+        "projectName": "BusinessModels",
+        "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj",
+        "packagesPath": "C:\\Users\\ashup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ashup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\DataObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\DataObjects.csproj",
+        "projectName": "DataObjects",
+        "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\DataObjects.csproj",
+        "packagesPath": "C:\\Users\\ashup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\ashup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj": {
+                "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\BusinessModels\\BusinessModels.csproj"
+              },
+              "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ashup\\source\\repos\\RSystemsWebApp\\ImageManagementSystem\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\bin\Debug\net6.0\DataObjects.dll
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\bin\Debug\net6.0\DataObjects.pdb
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\ashup\source\repos\RSystemsWebApp\ImageManagementSystem\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
