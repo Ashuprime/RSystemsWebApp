@@ -1,0 +1,24 @@
+<div class="container mt-4">
+    <button class="btn btn-primary mb-3" (click)="openAddModal()">New</button>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let image of images">
+        <div class="card mb-4">
+          <img src="{{ image.url }}" class="card-img-top" alt="{{ image.description }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ image.description }}</h5>
+            <p class="card-text">
+              <strong>Created:</strong> {{ image.user }}<br>
+              <strong>Created date:</strong> {{ image.dateCreated | date }}<br>
+              <strong>Description:</strong> {{ image.description }}
+            </p>
+            <button class="btn btn-primary" (click)="openEditModal(image)">Edit</button>
+            <button class="btn btn-danger ml-2" (click)="deleteImage(image.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-common-modal [modalTitle]="selectedImage.id ? 'Edit Image' : 'Add Image'" [showModal]="showModal" (close)="closeModal()">
+    <app-image-form [image]="selectedImage" (formClose)="closeModal()"></app-image-form>
+  </app-common-modal>

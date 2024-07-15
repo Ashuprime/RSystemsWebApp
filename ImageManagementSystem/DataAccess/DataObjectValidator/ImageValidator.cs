@@ -20,7 +20,7 @@ namespace DataAccess.DataObjectValidator
 
             RuleFor(x => x.URL)
                 .NotEmpty().WithMessage("URL is required")
-                .Matches("https://www.pinterest.com/").WithMessage("URL is only allowed from pinterest");
+                .WithMessage("URL is only allowed from pinterest");
 
             RuleFor(x => x.DateCreated)
                 .NotNull().WithMessage("Crated Date is required");

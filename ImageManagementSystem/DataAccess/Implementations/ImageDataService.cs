@@ -23,6 +23,7 @@ namespace DataAccess.Implementations
 
         public async Task CreateAsync(Image entity)
         {
+            entity.Id = GetNextId();
             var validationResult = _validator.Validate(entity);
             if (!validationResult.IsValid)
             {
@@ -84,6 +85,16 @@ namespace DataAccess.Implementations
         {
             var json = JsonSerializer.Serialize(_Images, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(_filePath, json);
+        }
+
+        private int GetNextId()
+        {
+            if(_Images.Count == 0)
+                return 1;
+
+
+            int id = _Images.Max(i => i.Id);
+            return ++id;
         }
     }
 }

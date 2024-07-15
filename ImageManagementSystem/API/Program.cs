@@ -18,6 +18,14 @@ builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var devCorsPolicy = "devCorsPolicy";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(devCorsPolicy, builder => {
+        builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200");
+    });
+});
+
 var app = builder.Build();
 
 //INject the middleware
@@ -27,10 +35,12 @@ app.UseMiddleware<ExceptionMiddleware>();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI();;
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(devCorsPolicy);
 
 app.UseAuthorization();
 

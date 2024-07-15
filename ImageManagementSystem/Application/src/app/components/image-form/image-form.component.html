@@ -1,0 +1,16 @@
+<form [formGroup]="imageForm" (ngSubmit)="saveImage()">
+    <div class="form-group">
+      <label for="user">User</label>
+      <input id="user" class="form-control" formControlName="user">
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input id="description" class="form-control" formControlName="description">
+    </div>
+    <div class="form-group">
+      <label for="url">URL</label>
+      <input id="url" type="url" class="form-control" formControlName="url">
+    </div>
+    <button type="submit" class="btn btn-primary">{{ image.id ? 'Update' : 'Add' }}</button>
+    <button type="button" class="btn btn-secondary" (click)="closeForm()">Cancel</button>
+  </form>
