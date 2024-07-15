@@ -1,5 +1,6 @@
 # RSystemsWebApp
-Repo containing the assignment of the Image Management system web app in angular and .Net
+This is a Image management Web application made to perform the CRUD actions inside the image gallery. 
+User can view the current list of images in gallery and can Add, Edit or Delete the images inside the gallery as per need.
 
 # Back-End Stack And Description
 API project is made using .Net 6.  
