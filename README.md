@@ -2,10 +2,10 @@
 Repo containing the assignment of the Image Management system web app in angular and .Net
 
 # Back-End Stack And Description
-API project is made using .Net 6.
-Solution consists of 5 layers
-  Controller => ViewModels => Service => DataModels => Data Access
-Layering is done to provide loose coupling, better maintainblity and scaleblity of the code base.
+API project is made using .Net 6. \n
+Solution consists of 5 layers. \n
+\t Controller => ViewModels => Service => DataModels => Data Access. \n
+Layering is done to provide loose coupling, better maintainblity and scaleblity of the code base. \n
 Repository pattern is followed for loose coupling of project with database layer
 Service layer has profiler to map ViewModels to DataModels
 Error handling middleware has been used to handle errors and validation.
